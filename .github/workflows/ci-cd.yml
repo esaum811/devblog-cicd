@@ -83,7 +83,7 @@ jobs:
         pip install -r requirements.txt 
     - name: Run E2E tests 
       run: | 
-        pytest tests/test_e2e_basic.py -v --tb=short 
+        pytest test/test_e2e_basic.py -v --tb=short 
       env: 
         DISPLAY: :99 
       
